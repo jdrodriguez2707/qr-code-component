@@ -12,5 +12,56 @@
 }
 
 body {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: 1fr auto;
+  padding: 0 16px;
+  font-family: var(--primary-font-family);
   background-color: var(--slate-300);
+}
+
+.card {
+  padding: 16px;
+  border-radius: 20px;
+  box-shadow: 0 25px 25px 0px rgba(0, 0, 0, 0.0477);
+  width: 100%;
+  max-width: 320px;
+  background-color: var(--white);
+}
+
+.qr-code-image {
+  border-radius: inherit;
+}
+
+.card-content {
+  padding: 0 16px;
+  margin: 24px 0 40px 0;
+  text-align: center;
+}
+
+.card-title {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: var(--primary-font-size);
+  color: var(--slate-900);
+}
+
+.card-description {
+  font-size: var(--secondary-font-size);
+  color: var(--slate-500);
+}
+
+.attribution {
+  margin: 16px 0;
+  text-align: center;
+}
+
+.attribution-text {
+  font-size: var(--secondary-font-size);
+  color: var(--slate-500);
+}
+
+.attribution-link {
+  color: var(--slate-900);
 }
