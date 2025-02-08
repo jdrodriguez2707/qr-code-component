@@ -22,26 +22,27 @@ body {
 }
 
 .card {
-  padding: 16px;
+  padding: 1.6rem;
   border-radius: 20px;
   box-shadow: 0 25px 25px 0px rgba(0, 0, 0, 0.0477);
   width: 100%;
-  max-width: 320px;
+  max-width: 32rem;
   background-color: var(--white);
 }
 
 .qr-code-image {
+  margin: 0 auto; /* Just in case the card increases its size due to the font size of the user and doesn't look centered */
   border-radius: inherit;
 }
 
 .card-content {
-  padding: 0 16px;
-  margin: 24px 0 40px 0;
+  padding: 0 1.6rem;
+  margin: 2.4rem 0 4rem 0;
   text-align: center;
 }
 
 .card-title {
-  margin-bottom: 16px;
+  margin-bottom: 1.6rem;
   font-weight: 700;
   font-size: var(--primary-font-size);
   color: var(--slate-900);
@@ -53,7 +54,7 @@ body {
 }
 
 .attribution {
-  margin: 16px 0;
+  margin: 1.6rem 0;
   text-align: center;
 }
 
